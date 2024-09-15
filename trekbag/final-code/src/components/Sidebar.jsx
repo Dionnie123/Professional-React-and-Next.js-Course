@@ -10,7 +10,6 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <AddItemForm onAddItem={addItem} />
-
       <ButtonGroup />
     </div>
   );
